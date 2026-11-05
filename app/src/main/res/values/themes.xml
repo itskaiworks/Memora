@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Matches the average tone of drawable/bg_stripes.jpg so nothing flashes white while
+         screens are transitioning. -->
+    <color name="memora_window_background">#EEECE5</color>
+
+    <!-- Used by MainActivity (Compose / ComponentActivity). -->
+    <style name="Theme.Memora" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/memora_window_background</item>
+        <item name="android:colorBackground">@color/memora_window_background</item>
+    </style>
+
+    <!-- Dialog window animation (see MemoraDialogWindowAnimation in AddFlowComponents.kt). -->
+    <style name="Animation.Memora.Dialog" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/memora_dialog_enter</item>
+        <item name="android:windowExitAnimation">@anim/memora_dialog_exit</item>
+    </style>
+</resources>

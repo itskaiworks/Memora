@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Matches the average tone of drawable-night/bg_stripes.jpg. -->
+    <color name="memora_window_background">#0C2B26</color>
+
+    <style name="Theme.Memora" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/memora_window_background</item>
+        <item name="android:colorBackground">@color/memora_window_background</item>
+    </style>
+</resources>
