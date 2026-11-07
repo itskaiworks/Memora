@@ -59,8 +59,6 @@ You can also find all versions on the [Releases page](https://github.com/itskaiw
 
 ## 📸 Screenshots
 
-> Replace each image path below with your own screenshot. Keep the files inside `docs/screenshots/`.
-
 ### Home & Browsing
 
 | Home | All Items | History | Profile |
