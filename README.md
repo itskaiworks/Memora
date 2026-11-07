@@ -3,8 +3,6 @@
 <!-- Put your logo at docs/screenshots/logo.png -->
 <img src="docs/screenshots/logo.png" alt="Memora logo" width="120" />
 
-# Memora
-
 **Never lose track of your things at home again.**
 
 An Android app for cataloging household items across rooms and storage locations, built with Kotlin and Jetpack Compose.
